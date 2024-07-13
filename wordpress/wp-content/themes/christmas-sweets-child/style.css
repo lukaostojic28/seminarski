@@ -1,0 +1,28 @@
+/*
+Theme Name: Christmas Sweets Child
+Template: christmas-sweets
+Author: Carolina Nymark
+Author URI: https://themesbycarolina.com
+Description: Christmas Sweets is a cute Christmas blog theme with a grid layout that focuses on your latest posts. It has a footer widget area with room for all your widgets, and two custom widgets for recent posts and comments. The theme is responsive and also has support for header image and logo. Christmas Sweets will always be free for you to use and customize. You can ask for support or request new features in the support forum.
+Tags: grid-layout,custom-menu,custom-logo,footer-widgets,theme-options,threaded-comments,translation-ready,blog,holiday
+Version: 1.0.1672244593
+Updated: 2022-12-28 16:23:13
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@1&display=swap');
+
+a, button, footer{
+    font-family: Georgia, Times, serif;
+}
+
+.wp-block-group__inner-container h2 {
+    font-family: Georgia, Times, serif;
+}
+
+.site-title, .site-description, .blog article:nth-child(1) .entry-title a, .home article:nth-child(1) .entry-title a, .credits, .pagination h2.screen-reader-text {
+    font-family: 'Andika', sans-serif;
+}
+
+ul#mega-menu-social.mega-menu.max-mega-menu.mega-menu-horizontal {
+    margin: 2em;
+}
